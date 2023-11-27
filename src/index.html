@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="scripts" href="/scripts.js">
+    <link rel="db" href="/db.json">
+    <title>Sort filter paginate</title>
+</head>
+<body>
+    <h1>COUNTRY LIST</h1>
+    <form class="js-country-form">
+        <div class="parent">
+            <div class="div1 js-country-name">
+                <label for="country-name" class="js-label">Country name</label><br>
+                <div class="placeholder">
+                    <input type="text" id="country-name" placeholder="Country name" class="js-placeholder" value="" name="country-name"><br>
+                </div>
+            </div>
+            <div class="div2 js-capital-city">
+                <label for="capital-city"class="js-label">Capital city</label><br>
+                <div class="placeholder">
+                    <input type="text" id="capital-city" placeholder="Capital city name" class="js-placeholder" value="" name="capital-city"><br>
+                </div>
+            </div>
+            <div class="div3 js-currency-country">
+                <label for="currency"class="js-label">Currency</label><br>
+                <div class="placeholder">
+                    <input type="text" id="currency" placeholder="Country currency" class="js-placeholder" value="" name="currency"><br>
+                </div>
+            </div>
+            <div class="div4 js-country-language">
+                <label for="language"class="js-label">Language</label><br>
+                <div class="placeholder">
+                    <input type="text" id="language" placeholder="Country language" class="js-placeholder" value="" name="language"><br>
+                </div>
+            </div>
+    
+            <div class="div6">
+                <button type="submit" class="js-country-button">Search for country</button>
+            </div>
+        </div>
+    </form>
+    
+    <script src="/scripts.js"></script>
+</body>
+</html>
